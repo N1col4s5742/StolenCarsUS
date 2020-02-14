@@ -58,7 +58,7 @@ Nous avont fait des pull request sur les misp-objects du GitHub officiel de Misp
 
 Nous avons changé les `definition.json` des objets vehicle et geolocation pour leur ajouter des champs utiles à notre projet.
 
-### Les difficultées relevées pendant le projet :
+### Les difficultés relevées pendant le projet :
 
 - Réussir à parser les données intéressantes du site. En effet, nous avons dû trouver des enchaînements répétitifs dans le code HTML afin de condenser le code du parser, et de l'écrire de la façon la plus générale possible selon le modèle du site. Le site n'a clairement pas été construit de façon à faciliter son parsing ;
 - Comprendre le fonctionnement de l'API PyMisp, et notamment comprendre les concepts d'events, d'objets et d'attributs ;
